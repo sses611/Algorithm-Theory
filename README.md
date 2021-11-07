@@ -1,20 +1,24 @@
-## Algorithm
+알고리즘 공부사이트 모음 (JAVA, JAVA Script)
+===
+코딩테스트 대비 알고리즘 연습공간
 
-### 코딩테스트 대비 알고리즘 연습공간
-### JAVA기준
 
-## 🐳 연습 링크
+
+### 🐳 연습 링크
 > 우선순위
 
-* [프로그래머스](https://programmers.co.kr/)
+1. [프로그래머스](https://programmers.co.kr/)
 
-- 이 후 시행 
-* [백준 알고리즘](https://www.acmicpc.net/)
+2. [백준 알고리즘](https://www.acmicpc.net/)
  
-* [코드업 기초 100제](https://codeup.kr/problemsetsol.php?psid=23)
+3. [코드업 기초 100제](https://codeup.kr/problemsetsol.php?psid=23)
  
-* [삼성 SW Expert Academy](https://swexpertacademy.com/main/main.do)
+4. [삼성 SW Expert Academy](https://swexpertacademy.com/main/main.do)
+
+5. [solved] (https://solved.ac/)
 
 
 
-## 🐳 가본개념
+## 🐳 기본개념
+##### [마크다운사용법](https://github.com/sses611/Algorithm/blob/master/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%20%EC%9E%91%EC%84%B1%EB%B2%95.md)]
+##### [배열] (
