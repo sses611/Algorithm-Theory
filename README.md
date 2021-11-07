@@ -19,6 +19,7 @@
 
 
 
-## 🐳 기본개념
-##### [마크다운사용법](https://github.com/sses611/Algorithm/blob/master/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%20%EC%9E%91%EC%84%B1%EB%B2%95.md)]
-##### [배열] (
+### 🐳 기본개념
+> 부족한 부분 기초정리
+##### [마크다운사용법](https://github.com/sses611/Algorithm/blob/master/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%20%EC%9E%91%EC%84%B1%EB%B2%95.md)
+##### [배열](https://github.com/sses611/Algorithm/blob/master/%EB%B0%B0%EC%97%B4.md)
