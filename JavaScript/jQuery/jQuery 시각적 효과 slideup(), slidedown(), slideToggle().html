@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/default.css"/>
+  <script src ='js/basic.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--jOuery CDN 연결-->
+
+
+  <script>
+    /*function slideUp(){
+      $('#first').slideUp("slow");
+    }
+    function slideDown(){
+      $('#first').slideDown("slow");
+    }*/
+
+    $(document).ready(function(){
+      $("button").click(function(){ 
+        $('#first').slideToggle("slow");
+        alert("실행완료");
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div>
+    <p id="first">시간은 금입니다.</p>
+    <p>나는 당신을 믿습니다.</p>
+    <p>나는 당신을 사랑합니다.</p>
+  </div>
+  <form>
+    <!-- <input type="button" value="slideUp" onclick="slideUp();"/>
+    <input type="button" value="slideDown" onclick="slideDown();"/> -->
+    <button>토글</button> 
+  </form>
+</body>
+</html>

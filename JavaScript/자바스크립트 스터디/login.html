@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="stylesheet" href="css/default.css"/> -->
+
+  <script src ='js/basic.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--jOuery CDN 연결-->
+  
+  <script>
+      $(document).ready(function(){
+        $('body').css('background', '#fff');
+        $('.wrap').css({'margin' : '20px', 'max-width' : '1200px', 'text-align': 'center'});
+
+        $('ul li').css({'list-style':'none', 'float' : 'left','margin-left'  : '10px', 'font-size' : '12px'});
+
+        $('.user_join').css({ 'font-size' : '12px', 'float' : 'left', 'margin-bottom' : '10px'});
+        $('.user_join a').css({'margin-right' : '15px'});
+
+
+        $('.fm_login').css({'background' : '#efefef', 'border' : '1px solid' , 'padding' : '20px', 'margin' : '100px 50px 0 50'});
+        $('.fm_login input').css({'margin' : '0 0 20px 0', 'width' : '100%', 'font-size' : '15px'});
+        $('.fm_login button').css({'width' : '100%', 'background' : '#4286ec', 'color' : '#fff', 'border' : 'none'});
+    });
+  </script>
+  
+
+  <style>
+    /* .fm_login{
+     color : #4286ec 
+    } */
+  </style>
+  
+  <title>login</title>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hd" id="hd"></header>
+    <section class="main-content">
+      <form class="fm_login" method="get" action="">
+        <input type="text" id="id" placeholder="아이디"/><br/>
+        <input type="text" id="id" placeholder="비밀번호"/><br/>
+        <div class ='user_info'>
+          <a href="#" class="user_join">회원가입</a>
+          <ul class='search_info'>
+            <li>ID 찾기</li>
+            <li>비밀번호 찾기</li>
+          </ul>
+        </div>
+        <button type="submit">입력</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
